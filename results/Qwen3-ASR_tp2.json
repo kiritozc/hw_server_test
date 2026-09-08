@@ -1,0 +1,90 @@
+[
+  {
+    "concurrency": 1,
+    "successful_requests": 8,
+    "failed_requests": 0,
+    "total_output_tokens": 24,
+    "throughput_tps": 31.608636195923697,
+    "e2e_avg_s": 0.09477504125243286,
+    "ttft_avg_ms": 62.59731249883771,
+    "itl_avg_ms": 10.443791878060438,
+    "avg_output_tokens": 3.0
+  },
+  {
+    "concurrency": 2,
+    "successful_requests": 8,
+    "failed_requests": 0,
+    "total_output_tokens": 24,
+    "throughput_tps": 48.39141297518381,
+    "e2e_avg_s": 0.12014899750647601,
+    "ttft_avg_ms": 80.75573750102194,
+    "itl_avg_ms": 13.004673128307331,
+    "avg_output_tokens": 3.0
+  },
+  {
+    "concurrency": 4,
+    "successful_requests": 8,
+    "failed_requests": 0,
+    "total_output_tokens": 24,
+    "throughput_tps": 59.00055131106169,
+    "e2e_avg_s": 0.18314334125170717,
+    "ttft_avg_ms": 128.74508750246605,
+    "itl_avg_ms": 19.188296249922132,
+    "avg_output_tokens": 3.0
+  },
+  {
+    "concurrency": 8,
+    "successful_requests": 8,
+    "failed_requests": 0,
+    "total_output_tokens": 24,
+    "throughput_tps": 62.89899255692791,
+    "e2e_avg_s": 0.28954566999163944,
+    "ttft_avg_ms": 231.0385512537323,
+    "itl_avg_ms": 22.367342506186105,
+    "avg_output_tokens": 3.0
+  },
+  {
+    "concurrency": 16,
+    "successful_requests": 8,
+    "failed_requests": 0,
+    "total_output_tokens": 23,
+    "throughput_tps": 62.45627042569744,
+    "e2e_avg_s": 0.3048874987507588,
+    "ttft_avg_ms": 247.39516749832546,
+    "itl_avg_ms": 21.885827500227606,
+    "avg_output_tokens": 2.875
+  },
+  {
+    "concurrency": 32,
+    "successful_requests": 8,
+    "failed_requests": 0,
+    "total_output_tokens": 24,
+    "throughput_tps": 77.95966054875576,
+    "e2e_avg_s": 0.26670922249468276,
+    "ttft_avg_ms": 210.02119874901837,
+    "itl_avg_ms": 21.267212498059962,
+    "avg_output_tokens": 3.0
+  },
+  {
+    "concurrency": 64,
+    "successful_requests": 8,
+    "failed_requests": 0,
+    "total_output_tokens": 24,
+    "throughput_tps": 72.12867249839132,
+    "e2e_avg_s": 0.28660679126915056,
+    "ttft_avg_ms": 224.29835626098793,
+    "itl_avg_ms": 22.198885624675313,
+    "avg_output_tokens": 3.0
+  },
+  {
+    "concurrency": 128,
+    "successful_requests": 8,
+    "failed_requests": 0,
+    "total_output_tokens": 24,
+    "throughput_tps": 68.87191476734584,
+    "e2e_avg_s": 0.29029872375394916,
+    "ttft_avg_ms": 233.8159374994575,
+    "itl_avg_ms": 19.73276375065325,
+    "avg_output_tokens": 3.0
+  }
+]
